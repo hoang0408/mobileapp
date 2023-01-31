@@ -132,6 +132,21 @@ a:hover{
     line-height: 1em;
     overflow: hidden;
 }
+/* fade-in add 初期表示時に追加されるクラス */
+.fade-in{
+    animation: fadein 1.5s ease-out forwards;
+}
+@keyframes fadein{
+    0% {
+        opactity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+/* fade-in end */
 
 .item02{
     position: relative;
