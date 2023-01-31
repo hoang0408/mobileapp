@@ -156,6 +156,7 @@ a:hover{
     margin: 0;
     line-height: 1em;
     overflow: hidden;
+    opacity: 0; /* 10-add デフォルトで透明度0に指定  */
 }
 
 .item01 img, .item02 img{
